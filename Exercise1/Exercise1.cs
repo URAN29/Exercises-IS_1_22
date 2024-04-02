@@ -32,6 +32,8 @@ namespace Exercise1
             {
                 state = "STARTED";
             }
+            else
+                state = "ERROR";
 
             return state;
         }
